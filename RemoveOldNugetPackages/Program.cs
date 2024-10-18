@@ -1,4 +1,6 @@
-﻿// using System.Runtime.InteropServices;
+﻿using System.Globalization;
+using RemoveOldNugetPackages;
+// using System.Runtime.InteropServices;
 
 // string path;
 // if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
@@ -8,9 +10,14 @@
 // else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
 //     path = null;
 
+// Load languages
+var lang_name = CultureInfo.CurrentUICulture.Name.ToLower();
+var langs = Config.Language[Config.Language.ContainsKey(lang_name) ? lang_name : "en-us"];
+
+// Start Remove
 var path = Environment.GetEnvironmentVariable("userprofile") + "/.nuget/packages";
 var dir_arr = new DirectoryInfo(path).GetDirectories();
-Console.WriteLine("Removing...");
+Console.WriteLine(langs[0]);
 foreach (var dir in dir_arr)
 {
     var sub_dir_arr = dir.GetDirectories();
@@ -21,5 +28,5 @@ foreach (var dir in dir_arr)
     }
 }
 
-Console.WriteLine("Remove is complete, the window can be closed.");
+Console.WriteLine(langs[1]);
 Console.ReadLine();
