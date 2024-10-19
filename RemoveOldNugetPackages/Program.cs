@@ -1,5 +1,4 @@
-﻿using System.Globalization;
-using RemoveOldNugetPackages;
+﻿using RemoveOldNugetPackages;
 // using System.Runtime.InteropServices;
 
 // string path;
@@ -11,8 +10,7 @@ using RemoveOldNugetPackages;
 //     path = null;
 
 // Load languages
-var lang_name = CultureInfo.CurrentUICulture.Name.ToLower();
-var langs = Config.Language[Config.Language.ContainsKey(lang_name) ? lang_name : "en-us"];
+var langs = Language.Get();
 
 // Start Remove
 var path = Environment.GetEnvironmentVariable("userprofile") + "/.nuget/packages";
