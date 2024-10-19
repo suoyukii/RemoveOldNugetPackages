@@ -3,36 +3,37 @@
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
-    <img src="http://img.shields.io/badge/License-MIT%20License-1e90ff.svg"/>
+    <img src="http://img.shields.io/badge/License-MIT_License-1e90ff?style=for-the-badge"/>
   </a>
   <a href="https://dotnet.microsoft.com">
-    <img src="http://img.shields.io/badge/.Net-8.0-1e90ff.svg"/>
+    <img src="http://img.shields.io/badge/.Net-8.0-1e90ff?style=for-the-badge"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="#features">Features</a> ·
-  <a href="#install">Install</a> ·
-  <a href="#usage">Usage</a>
+  <img src="https://img.shields.io/badge/English-lightgray?style=for-the-badge"/>
+  <a href="README/zh-cn.md">
+    <img src="https://img.shields.io/badge/简体中文-1e90ff?style=for-the-badge"/>
+  </a>
 </p>
 
 ---
 
 Currently only Windows OS are supported, but there is cross-platform compatible code in the code comments, but there is no nuget package path for other systems.
 
-# Features
+## ✨ Features
 
 - Automatization
 - Lightweight software
 - Free up hard disk space
 
-# Install
+## 🌟 Install
 
-RemoveOldNugetPackages requires **.Net 8.0** to run successfully.
+`RemoveOldNugetPackages` requires `.Net 8.0` to run successfully.
 
 - [Download .Net 8.0](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0/runtime)
 - [Download RemoveOldNugetPackages](https://github.com/suoyukii/RemoveOldNugetPackages/releases)
 
-# Usage
+## ⭐ Usage
 
-Open RemoveOldNugetPackages to automatically remove old versions of nuget packages.
+Open `RemoveOldNugetPackages` to automatically remove old versions of nuget packages.
