@@ -1,4 +1,5 @@
 ﻿using RemoveOldNugetPackages;
+
 // using System.Runtime.InteropServices;
 
 // string path;
@@ -11,11 +12,12 @@
 
 // Load languages
 var langs = Language.Get();
+Console.Title = langs[0];
 
 // Start Remove
 var path = Environment.GetEnvironmentVariable("userprofile") + "/.nuget/packages";
 var dir_arr = new DirectoryInfo(path).GetDirectories();
-Console.WriteLine(langs[0]);
+Console.WriteLine(langs[1]);
 foreach (var dir in dir_arr)
 {
     var sub_dir_arr = dir.GetDirectories();
@@ -26,5 +28,5 @@ foreach (var dir in dir_arr)
     }
 }
 
-Console.WriteLine(langs[1]);
+Console.WriteLine(langs[2]);
 Console.ReadLine();

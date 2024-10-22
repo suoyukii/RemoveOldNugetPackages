@@ -9,6 +9,7 @@ internal static class Language
         {
             "en-us",
             [
+                "Remove Old Nuget Packages",
                 "Removing...",
                 "Remove is complete, the window can be closed."
             ]
@@ -16,6 +17,7 @@ internal static class Language
         {
             "zh-cn",
             [
+                "清除旧版 Nuget 包",
                 "清除中...",
                 "清除结束，这个窗口可以关闭了"
             ]

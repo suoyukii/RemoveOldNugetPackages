@@ -19,7 +19,9 @@
 
 ---
 
-Currently only Windows OS are supported, but there is cross-platform compatible code in the code comments, but there is no nuget package path for other systems.
+Open `RemoveOldNugetPackages` to automatically remove old versions of Nuget packages.
+
+Currently only Windows OS are supported, but there is cross-platform compatible code in the code comments, but there is no Nuget package path for other systems.
 
 ## ✨ Features
 
@@ -33,7 +35,3 @@ Currently only Windows OS are supported, but there is cross-platform compatible 
 
 - [Download .Net 8.0](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0/runtime)
 - [Download RemoveOldNugetPackages](https://github.com/suoyukii/RemoveOldNugetPackages/releases)
-
-## ⭐ Usage
-
-Open `RemoveOldNugetPackages` to automatically remove old versions of nuget packages.

@@ -12,7 +12,11 @@
 
 ---
 
-目前只支持 Windows 操作系统，但在代码注释中有跨平台兼容的代码，但没有针对其他系统的 nuget 软件包路径
+`RemoveOldNugetPackages` 中文名：`清除旧版 Nuget 包`
+
+打开 `RemoveOldNugetPackages`，就会自动删除旧版本的 Nuget 软件包。
+
+目前只支持 Windows 操作系统，但在代码注释中有跨平台兼容的代码，但没有针对其他系统的 Nuget 软件包路径。
 
 ## ✨ 特点
 
@@ -26,7 +30,3 @@
 
 - [下载 .Net 8.0](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0/runtime)
 - [下载 RemoveOldNugetPackages](https://github.com/suoyukii/RemoveOldNugetPackages/releases)
-
-## ⭐ 使用
-
-打开 `RemoveOldNugetPackages`，就会自动删除旧版本的 nuget 软件包
