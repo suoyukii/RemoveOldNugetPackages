@@ -1,5 +1,5 @@
 <h1 align="center">RemoveOldNugetPackages</h1>
-<h4 align="center">旧版本的 nuget 软件包会自动删除，而最新版本的 nuget 软件包会保留下来</h4>
+<h4 align="center">旧版本的 nuget 软件包会自动删除，而最新版本的 Nuget 软件包会保留下来</h4>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
