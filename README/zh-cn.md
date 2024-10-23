@@ -26,7 +26,7 @@
 
 ## 🌟 安装
 
-`RemoveOldNugetPackages` 需要 `.Net 8.0` 才能成功运行。
+`RemoveOldNugetPackages` 需要 `.Net 8.0` `运行桌面应用` `x64` 才能成功运行。
 
 - [下载 .Net 8.0](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0/runtime)
 - [下载 RemoveOldNugetPackages](https://github.com/suoyukii/RemoveOldNugetPackages/releases)

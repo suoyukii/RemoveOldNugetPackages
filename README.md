@@ -31,7 +31,7 @@ Currently only Windows OS are supported, but there is cross-platform compatible 
 
 ## 🌟 Install
 
-`RemoveOldNugetPackages` requires `.Net 8.0` to run successfully.
+`RemoveOldNugetPackages` requires `.Net 8.0` `Run desktop apps` `x64` to run successfully.
 
 - [Download .Net 8.0](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0/runtime)
 - [Download RemoveOldNugetPackages](https://github.com/suoyukii/RemoveOldNugetPackages/releases)
