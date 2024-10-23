@@ -12,7 +12,7 @@
 
 ---
 
-`RemoveOldNugetPackages` 中文名：`清除旧版 Nuget 包`
+中文名：清除旧版 Nuget 包
 
 打开 `RemoveOldNugetPackages`，就会自动删除旧版本的 Nuget 软件包。
 
@@ -26,7 +26,7 @@
 
 ## 🌟 安装
 
-`RemoveOldNugetPackages` 需要 `.Net 8.0` 才能成功运行
+`RemoveOldNugetPackages` 需要 `.Net 8.0` 才能成功运行。
 
 - [下载 .Net 8.0](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0/runtime)
 - [下载 RemoveOldNugetPackages](https://github.com/suoyukii/RemoveOldNugetPackages/releases)
