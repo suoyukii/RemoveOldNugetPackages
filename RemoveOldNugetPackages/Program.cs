@@ -1,21 +1,15 @@
 ﻿using RemoveOldNugetPackages;
 
-// using System.Runtime.InteropServices;
-
-// string path;
-// if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-//     path = Environment.GetEnvironmentVariable("userprofile") + "/.nuget/packages";
-// else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
-//     path = null;
-// else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
-//     path = null;
-
-// Load languages
+// Load language
 var langs = Language.Get();
 Console.Title = langs[0];
 
-// Start Remove
+// Start remove
 var path = Environment.GetEnvironmentVariable("userprofile") + "/.nuget/packages";
+// string path;
+// if (OperatingSystem.IsWindows()) path = Environment.GetEnvironmentVariable("userprofile") + "/.nuget/packages";
+// else if (OperatingSystem.IsLinux()) path = null;
+// else if (OperatingSystem.IsMacOS()) path = null;
 var dir_arr = new DirectoryInfo(path).GetDirectories();
 Console.WriteLine(langs[1]);
 foreach (var dir in dir_arr)

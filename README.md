@@ -3,10 +3,10 @@
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
-    <img src="http://img.shields.io/badge/License-MIT_License-1e90ff?style=for-the-badge"/>
+    <img src="http://img.shields.io/badge/License-MIT-1e90ff?style=for-the-badge"/>
   </a>
   <a href="https://dotnet.microsoft.com">
-    <img src="http://img.shields.io/badge/.Net-8.0-1e90ff?style=for-the-badge"/>
+    <img src="http://img.shields.io/badge/.Net-9.0-1e90ff?style=for-the-badge"/>
   </a>
 </p>
 
@@ -23,15 +23,6 @@ Open RemoveOldNugetPackages to automatically remove old versions of Nuget packag
 
 Currently only Windows OS are supported, but there is cross-platform compatible code in the code comments, but there is no Nuget package path for other systems.
 
-## ✨ Features
+## ✨ Install
 
-- Automatization
-- Lightweight software
-- Free up hard disk space
-
-## 🌟 Install
-
-`RemoveOldNugetPackages` requires `.Net 8.0` `Run desktop apps` `x64` to run successfully.
-
-- [Download .Net 8.0](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0/runtime)
 - [Download RemoveOldNugetPackages](https://github.com/suoyukii/RemoveOldNugetPackages/releases)

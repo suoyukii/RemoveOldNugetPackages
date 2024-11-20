@@ -3,10 +3,10 @@
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
-    <img src="http://img.shields.io/badge/License-MIT_License-1e90ff?style=for-the-badge"/>
+    <img src="http://img.shields.io/badge/License-MIT-1e90ff?style=for-the-badge"/>
   </a>
   <a href="https://dotnet.microsoft.com">
-    <img src="http://img.shields.io/badge/.Net-8.0-1e90ff?style=for-the-badge"/>
+    <img src="http://img.shields.io/badge/.Net-9.0-1e90ff?style=for-the-badge"/>
   </a>
 </p>
 
@@ -18,15 +18,6 @@
 
 目前只支持 Windows 操作系统，但在代码注释中有跨平台兼容的代码，但没有针对其他系统的 Nuget 软件包路径。
 
-## ✨ 特点
+## ✨ 安装
 
-- 自动化
-- 轻量级软件
-- 释放硬盘空间
-
-## 🌟 安装
-
-`RemoveOldNugetPackages` 需要 `.Net 8.0` `运行桌面应用` `x64` 才能成功运行。
-
-- [下载 .Net 8.0](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0/runtime)
 - [下载 RemoveOldNugetPackages](https://github.com/suoyukii/RemoveOldNugetPackages/releases)
